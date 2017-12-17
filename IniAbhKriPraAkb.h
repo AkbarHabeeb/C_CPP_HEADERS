@@ -12,4 +12,21 @@
 #include "isunique.h"		//d
 #include "isort.h"			//d
 #include "log.h"			//d
-#include "is_mat_eq.h"		//d	
+#include "is_mat_eq.h"	
+#include "concate.h"//d	
+#include "addition.h"
+#include "copy.h"
+#include "mergesort.h"
+#include "appendchar.h"
+#include "median.h"
+#include "replace.h"
+#include "gcd.h"
+#include "root.h"
+#include "length.h"
+#include "islessequal.h"
+#include "rmerge.h"
+#include "sort.h"
+#include "ismin.h"
+#include "isidentical.h"
+#include "floor.h"
+#include "tan.h"
