@@ -8,7 +8,7 @@ int pow(int b,int e)
   }
   return res;
 }
-double pow(double b,int e)
+double pow(double b,double e)
 {
     double res=1;
     while(e!=0)
