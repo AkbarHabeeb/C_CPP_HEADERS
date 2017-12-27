@@ -1,23 +1,9 @@
-int gcdvalue(int a, int b)
+//gcd of numbers
+int gcd(int lcm1,int lcm2)
 {
-    int temp;
-    while(b>0)
-    {
-    	temp=b;
-    	b=a%b;
-    	a=temp;
-	}
-    return a;
-}
-
-int gcd(int a[],int n)
-
-{
-	int i,result;
-	result=a[0];
-	for(int i=1;i<n;i++)
-	{
-		result=gcdvalue(result,a[i]);
-	}
-return result;
+     	if(lcm1==lcm2)
+     	   return lcm1;
+     	if(lcm1>lcm2)
+     	 return gcd(lcm1-lcm2,lcm2);
+     	return gcd(lcm1,lcm2-lcm1);
 }

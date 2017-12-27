@@ -1,7 +1,8 @@
-bool islower(char s)
+//islower
+bool islower(char word)
 {
-    if(s>='a'&&s<='z')
-        return 1;
-    else
-        return 0;
+	if(word>=97 && word<=122)
+	   return 1;
+	   else
+	   return 0;
 }
