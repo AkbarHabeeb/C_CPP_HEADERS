@@ -1,13 +1,10 @@
-int count(char a[],char c)
+int count(int n)
 {
-	int countt=0;
-	//printf("%c",c);
-	for(int i=0;a[i]!='\0';i++)
+	int rem,count=0;
+	while(n>0)
 	{
-		
-		if(a[i]==c)
-			countt++;
+		n=n/10;
+		count=count+1;
 	}
-	return countt;
+	return count;
 }
-//while sending enclose char c in single quotes
